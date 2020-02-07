@@ -1,0 +1,44 @@
+
+<html>
+<head>
+<title>Admin</title>
+<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style> .m-padding{
+padding-top:5px;
+padding-bottom:5px;
+}
+</style>
+</head>
+<body>
+<div id="wrapper">
+
+				<!-- Intro -->
+					<section id="intro" class="wrapper style1 fullscreen fade-up">
+						<div class="inner">
+<table width=100% bgcolor=BurlyWood>
+<tr>
+<td colspan='3'>
+<div class="m-padding">
+<a class ="w3-button w3-purple w3-round-xlarge" href="allregistration.php" target="adminpage">ALL REGISTRATIONS</a> 
+<a class ="w3-button w3-purple w3-round-xlarge" href="approvedregistration.php" target="adminpage">APPROVED REGISTRATIONS</a> 
+
+<a class ="w3-button w3-purple w3-round-xlarge" href="pendingregistration.php" target="adminpage">PENDING REGISTRATIONS</a>
+<a class ="w3-button w3-purple w3-round-xlarge" href="message.php" target="adminpage">message</a>
+<!--<a class ="w3-button w3-purple w3-round-xlarge" href="MEDHA1/index.html" style="float:right"  >LOGOUT</a>-->
+</div>
+</td>
+</tr>
+</table>
+<iframe height="430px" width="100%" src="allregistration.php"   scrolling="yes" style="border:none;" name="adminpage"></iframe>
+</ul>
+						</div>
+					</section>
+
+</body>
+</html>
